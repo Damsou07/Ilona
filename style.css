@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+}
+
+h1, .zone-text {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    left: 20px;
+    font-family: sans-serif;
+}
+
+h1 {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.zone-text {
+    margin-top: 50px;
+    left: 90px;
+    bottom: 25px;
+    font-size: 16px;
+}
+
